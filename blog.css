@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-margin: 80px;
+
+}
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(235, 18, 18, 0.5);
+    }
+.logo img{
+    height: 30px;
+    width: 30px;
+    background-blend-mode: multiply;
+}
+.logo{
+    display: flex;
+    align-items:  center;
+    gap: 5px;
+}
+nav a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+     border-bottom: 2p solid transparent;
+}
+nav a:hover{
+    border-bottom: 2px solid white;
+}
+nav li{
+    list-style: none;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search img{
+    height: 20px;
+    width: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.search input{
+    border-radius: 10px;
+    padding: 5px 55px;
+}
+#hero {
+    background-image:url(../images//dinner.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.tag1{
+    text-align: center;
+    font-size: 37px;
+    padding: 40vh 0;
+    color: #ef911c;
+   
+}
+.tag1 h3{
+    margin: 0 187px;
+    padding: 6px;
+    background-color: rgba(0,0, 0, 0.5);
+}
+.tag1 p{
+    margin: 0 187px;
+    padding: 6px;
+    background-color: rgba(0,0, 0, 0.5);
+}
+#food,#temples,#studies{
+    display: flex;
+}
+#festivals,#religion,#monuments{
+    display: flex;
+}
+.one,.two,.three{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 95px;
+}
+.sub2 img{
+    height: 194px;
+    width: 274px;
+}
+.sub3 img{
+    height: 194px;
+    width: 274px;
+}
+.sub3 img{
+    height: 194px;
+    width: 274px;
+}
+.line{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 70px;
+    font-style: italic;
+    text-shadow: 5px 5px 8px #026df1;
+}
+#hero2{
+    background-image: url(../images/temple.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+#hero3{
+    background-image: url(../images/books.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+#hero4{
+    background-image: url(../images/festival.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+#hero5{
+    background-image: url(../images/pray.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+#hero6{
+    background-image: url(../images/monument.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
